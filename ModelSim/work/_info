@@ -1,0 +1,99 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.0
+T_opt
+!s110 1538083106
+VPmKUI55hC<;bbzVKzN^;e3
+04 25 4 work phone_number_displayer_tb test 1
+=1-509a4c2798b0-5bad4921-363-3444
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.7b;67
+Elab4
+Z0 w1537284024
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z3 dS:/CPET232/Lab4/ModelSim
+Z4 8S:/CPET232/Lab4/Lab4.vhd
+Z5 FS:/CPET232/Lab4/Lab4.vhd
+l0
+L4
+V5ClNc:Jj5V[Z^WmNQQIQb2
+!s100 eM6JkK>hX6KDc<O=8nQ>d3
+Z6 OL;C;10.7b;67
+32
+Z7 !s110 1538082947
+!i10b 1
+Z8 !s108 1538082947.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/CPET232/Lab4/Lab4.vhd|
+Z10 !s107 S:/CPET232/Lab4/Lab4.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Amodel
+R1
+R2
+DEx4 work 4 lab4 0 22 5ClNc:Jj5V[Z^WmNQQIQb2
+l27
+L10
+VOHQ[Xk>FTR6z?jOK^nmmC1
+!s100 ROQCB;W1d`KInhSb^9SoW1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Ephone_number_displayer_tb
+Z13 w1537284091
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+R3
+Z15 8S:/CPET232/Lab4/phone_number_displayer_tb.vhd
+Z16 FS:/CPET232/Lab4/phone_number_displayer_tb.vhd
+l0
+L41
+VZI=A?VZFLc>jOXG;D77ek0
+!s100 DGokbYIDf<Ba7CDQh6[=a3
+R6
+32
+Z17 !s110 1538082949
+!i10b 1
+Z18 !s108 1538082949.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/CPET232/Lab4/phone_number_displayer_tb.vhd|
+Z20 !s107 S:/CPET232/Lab4/phone_number_displayer_tb.vhd|
+!i113 0
+R11
+R12
+Atest
+R14
+R1
+R2
+DEx4 work 25 phone_number_displayer_tb 0 22 ZI=A?VZFLc>jOXG;D77ek0
+l67
+L44
+V56N]ceIj1azRDc>eGDQ603
+!s100 1@U_3FTem<S6Ui_Bc7CT31
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R11
+R12

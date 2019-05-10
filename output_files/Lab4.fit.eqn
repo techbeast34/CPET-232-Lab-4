@@ -1,0 +1,186 @@
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
+--A1L37 is Mux6~0 at MLABCELL_X42_Y1_N30
+A1L37 = ( A1L44 & ( A1L42 ) ) # ( !A1L44 & ( A1L42 & ( (A1L40) # (A1L46) ) ) ) # ( A1L44 & ( !A1L42 & ( (A1L46 & A1L40) ) ) ) # ( !A1L44 & ( !A1L42 & ( (A1L46 & A1L40) ) ) );
+
+
+--A1L36 is Mux5~0 at MLABCELL_X42_Y1_N9
+A1L36 = ( !A1L44 & ( A1L42 & ( (A1L46) # (A1L40) ) ) ) # ( A1L44 & ( !A1L42 & ( (!A1L40) # (!A1L46) ) ) ) # ( !A1L44 & ( !A1L42 & ( !A1L40 $ (!A1L46) ) ) );
+
+
+--A1L35 is Mux4~0 at MLABCELL_X42_Y1_N42
+A1L35 = ( A1L44 & ( A1L42 ) ) # ( A1L44 & ( !A1L42 & ( A1L46 ) ) ) # ( !A1L44 & ( !A1L42 & ( (A1L46 & A1L40) ) ) );
+
+
+--A1L34 is Mux2~0 at MLABCELL_X42_Y1_N51
+A1L34 = ( !A1L44 & ( A1L42 & ( (!A1L40 & !A1L46) ) ) ) # ( A1L44 & ( !A1L42 & ( (!A1L40 & A1L46) ) ) ) # ( !A1L44 & ( !A1L42 & ( !A1L40 $ (!A1L46) ) ) );
+
+
+--A1L33 is Mux1~0 at MLABCELL_X42_Y1_N54
+A1L33 = ( A1L44 & ( A1L42 ) ) # ( A1L44 & ( !A1L42 ) ) # ( !A1L44 & ( !A1L42 & ( (A1L46 & A1L40) ) ) );
+
+
+--A1L32 is Mux0~0 at MLABCELL_X42_Y1_N3
+A1L32 = ( A1L44 & ( A1L42 ) ) # ( !A1L44 & ( !A1L42 & ( (A1L40 & !A1L46) ) ) );
+
+
+--A1L38 is output_if~0 at MLABCELL_X42_Y1_N36
+A1L38 = ( !A1L44 & ( A1L42 & ( (!A1L46 & !A1L40) ) ) ) # ( A1L44 & ( !A1L42 & ( (A1L46 & !A1L40) ) ) ) # ( !A1L44 & ( !A1L42 & ( !A1L46 $ (!A1L40) ) ) );
+
+
+--A1L4 is hex_disp_case[0]~output at IOOBUF_X52_Y0_N53
+A1L4 = OUTPUT_BUFFER.O(.I(A1L37), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_case[0] is hex_disp_case[0] at PIN_U21
+hex_disp_case[0] = OUTPUT();
+
+
+--A1L6 is hex_disp_case[1]~output at IOOBUF_X51_Y0_N36
+A1L6 = OUTPUT_BUFFER.O(.I(!A1L36), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_case[1] is hex_disp_case[1] at PIN_V21
+hex_disp_case[1] = OUTPUT();
+
+
+--A1L8 is hex_disp_case[2]~output at IOOBUF_X48_Y0_N76
+A1L8 = OUTPUT_BUFFER.O(.I(A1L35), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_case[2] is hex_disp_case[2] at PIN_W22
+hex_disp_case[2] = OUTPUT();
+
+
+--A1L10 is hex_disp_case[3]~output at IOOBUF_X50_Y0_N36
+A1L10 = OUTPUT_BUFFER.O(.I(A1L37), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_case[3] is hex_disp_case[3] at PIN_W21
+hex_disp_case[3] = OUTPUT();
+
+
+--A1L12 is hex_disp_case[4]~output at IOOBUF_X48_Y0_N93
+A1L12 = OUTPUT_BUFFER.O(.I(!A1L34), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_case[4] is hex_disp_case[4] at PIN_Y22
+hex_disp_case[4] = OUTPUT();
+
+
+--A1L14 is hex_disp_case[5]~output at IOOBUF_X50_Y0_N53
+A1L14 = OUTPUT_BUFFER.O(.I(A1L33), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_case[5] is hex_disp_case[5] at PIN_Y21
+hex_disp_case[5] = OUTPUT();
+
+
+--A1L16 is hex_disp_case[6]~output at IOOBUF_X46_Y0_N36
+A1L16 = OUTPUT_BUFFER.O(.I(A1L32), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_case[6] is hex_disp_case[6] at PIN_AA22
+hex_disp_case[6] = OUTPUT();
+
+
+--A1L19 is hex_disp_if[0]~output at IOOBUF_X44_Y0_N36
+A1L19 = OUTPUT_BUFFER.O(.I(A1L37), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_if[0] is hex_disp_if[0] at PIN_AA20
+hex_disp_if[0] = OUTPUT();
+
+
+--A1L21 is hex_disp_if[1]~output at IOOBUF_X40_Y0_N93
+A1L21 = OUTPUT_BUFFER.O(.I(!A1L36), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_if[1] is hex_disp_if[1] at PIN_AB20
+hex_disp_if[1] = OUTPUT();
+
+
+--A1L23 is hex_disp_if[2]~output at IOOBUF_X44_Y0_N53
+A1L23 = OUTPUT_BUFFER.O(.I(A1L35), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_if[2] is hex_disp_if[2] at PIN_AA19
+hex_disp_if[2] = OUTPUT();
+
+
+--A1L25 is hex_disp_if[3]~output at IOOBUF_X43_Y0_N36
+A1L25 = OUTPUT_BUFFER.O(.I(A1L37), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_if[3] is hex_disp_if[3] at PIN_AA18
+hex_disp_if[3] = OUTPUT();
+
+
+--A1L27 is hex_disp_if[4]~output at IOOBUF_X38_Y0_N36
+A1L27 = OUTPUT_BUFFER.O(.I(!A1L38), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_if[4] is hex_disp_if[4] at PIN_AB18
+hex_disp_if[4] = OUTPUT();
+
+
+--A1L29 is hex_disp_if[5]~output at IOOBUF_X43_Y0_N53
+A1L29 = OUTPUT_BUFFER.O(.I(A1L33), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_if[5] is hex_disp_if[5] at PIN_AA17
+hex_disp_if[5] = OUTPUT();
+
+
+--A1L31 is hex_disp_if[6]~output at IOOBUF_X51_Y0_N53
+A1L31 = OUTPUT_BUFFER.O(.I(A1L32), , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , );
+
+
+--hex_disp_if[6] is hex_disp_if[6] at PIN_U22
+hex_disp_if[6] = OUTPUT();
+
+
+--A1L40 is w~input at IOIBUF_X33_Y0_N41
+A1L40 = INPUT_BUFFER(.I(w), );
+
+
+--w is w at PIN_U13
+w = INPUT();
+
+
+--A1L46 is z~input at IOIBUF_X33_Y0_N58
+A1L46 = INPUT_BUFFER(.I(z), );
+
+
+--z is z at PIN_V13
+z = INPUT();
+
+
+--A1L44 is y~input at IOIBUF_X34_Y0_N1
+A1L44 = INPUT_BUFFER(.I(y), );
+
+
+--y is y at PIN_T13
+y = INPUT();
+
+
+--A1L42 is x~input at IOIBUF_X34_Y0_N18
+A1L42 = INPUT_BUFFER(.I(x), );
+
+
+--x is x at PIN_T12
+x = INPUT();
+
+
+

@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "hex_disp_case[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_case[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_case[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_case[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_case[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_case[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_case[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_if[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_if[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_if[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_if[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_if[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_if[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hex_disp_if[6]",
+					"strict" : false
+				},
+				{
+					"name" : "w",
+					"strict" : false
+				},
+				{
+					"name" : "z",
+					"strict" : false
+				},
+				{
+					"name" : "y",
+					"strict" : false
+				},
+				{
+					"name" : "x",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

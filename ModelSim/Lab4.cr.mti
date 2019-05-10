@@ -1,0 +1,18 @@
+S:/CPET232/Lab4/Lab4.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none S:/CPET232/Lab4/Lab4.vhd
+Model Technology ModelSim SE-64 vcom 10.7b Compiler 2018.06 Jun  8 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Lab4
+-- Compiling architecture model of Lab4
+
+} {} {}} S:/CPET232/Lab4/phone_number_displayer_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none S:/CPET232/Lab4/phone_number_displayer_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.7b Compiler 2018.06 Jun  8 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity phone_number_displayer_tb
+-- Compiling architecture test of phone_number_displayer_tb
+
+} {} {}}
